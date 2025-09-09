@@ -1,4 +1,4 @@
-// Login Form Functionality
+// Login Form
 document.addEventListener('DOMContentLoaded', function() {
     const loginForm = document.getElementById('loginForm');
     
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const email = document.getElementById('email').value;
             const password = document.getElementById('password').value;
             
-            // Mac Miller themed credentials
+            // demo login credentials
             const validEmail = 'mac@miller.com';
             const validPassword = 'swimming';
             
@@ -30,7 +30,3 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// Forgot Password Functionality
-function showForgotPassword() {
-    alert('Password reset functionality would be implemented here.');
-}

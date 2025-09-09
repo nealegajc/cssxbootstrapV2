@@ -1,4 +1,4 @@
-// Register Form Functionality
+// Register
 document.addEventListener('DOMContentLoaded', function() {
     const registerForm = document.getElementById('registerForm');
     
