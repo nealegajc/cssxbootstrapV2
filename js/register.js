@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function() {
             const email = document.getElementById('email').value;
             const password = document.getElementById('password').value;
             const confirmPassword = document.getElementById('confirmPassword').value;
-            const terms = document.getElementById('terms').checked;
             
             // Validation
             if (!fullName || !email || !password || !confirmPassword) {
@@ -25,11 +24,6 @@ document.addEventListener('DOMContentLoaded', function() {
             
             if (password.length < 6) {
                 alert('Password must be at least 6 characters long');
-                return;
-            }
-            
-            if (!terms) {
-                alert('Please agree to the Terms of Service and Privacy Policy');
                 return;
             }
             
